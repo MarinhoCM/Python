@@ -1,4 +1,5 @@
 from FilaBase import FilaBase
+
 from constantes import CODIGO_NORMAL
 
 

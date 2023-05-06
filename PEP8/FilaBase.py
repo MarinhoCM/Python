@@ -1,4 +1,5 @@
 import abc
+# quebra de linha para diferenciar import do python e import do projeto
 from constantes import (TAMANHO_PADRAO_MAXIMO,
                         TAMANHO_PADRAO_MINIMO)
 
