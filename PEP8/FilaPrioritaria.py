@@ -1,9 +1,9 @@
 class FilaPrioritaria:
     def __init__(self)-> None:
-        self.codigo: int = 0
-        self.fila: list = []
-        self.clientes_atendidos: list = []
-        self.senha_atual: str = ''
+        self.codigo : int = 0
+        self.fila : list = []
+        self.clientes_atendidos : list = []
+        self.senha_atual : str = ''
 
 
     def gerar_senha_atual(self)-> None:        
