@@ -1,5 +1,5 @@
-from FilaNormal import FilaNormal
-from FilaPrioritaria import FilaPrioritaria
+from PEP8.FilaNormal import FilaNormal
+from PEP8.FilaPrioritaria import FilaPrioritaria
 
 class Main:
     def __init__(self) -> None:
