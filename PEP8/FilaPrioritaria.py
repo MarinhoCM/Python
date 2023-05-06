@@ -1,4 +1,5 @@
 from FilaBase import FilaBase
+from constantes import CODIGO_PRIORITARIO
 
 
 class FilaPrioritaria(FilaBase):
@@ -9,7 +10,7 @@ class FilaPrioritaria(FilaBase):
         self.senha_atual : str = ''
 
     def gerar_senha_atual(self)-> None:        
-        self.senha_atual = f'NP{self.codigo}'
+        self.senha_atual = f'{CODIGO_PRIORITARIO}{self.codigo}'
     
     def reseta_fila(self)-> None:
         if self.codigo >= 100:
