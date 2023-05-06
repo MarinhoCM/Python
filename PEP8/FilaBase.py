@@ -1,5 +1,6 @@
 import abc
 
+
 class FilaBase(metaclass=abc.ABCMeta):
     def __init__(self)-> None:
         self.codigo: int = 0
