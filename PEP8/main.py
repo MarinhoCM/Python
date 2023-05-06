@@ -1,5 +1,5 @@
-from PEP8.FilaNormal import FilaNormal
-from PEP8.FilaPrioritaria import FilaPrioritaria
+from FilaNormal import FilaNormal
+from FilaPrioritaria import FilaPrioritaria
 
 
 class Main:

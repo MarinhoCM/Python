@@ -1,4 +1,7 @@
-class FilaPrioritaria:
+from FilaBase import FilaBase
+
+
+class FilaPrioritaria(FilaBase):
     def __init__(self)-> None:
         self.codigo : int = 0
         self.fila : list = []

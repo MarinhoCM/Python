@@ -1,4 +1,7 @@
-class FilaNormal:
+from FilaBase import FilaBase
+
+
+class FilaNormal(FilaBase):
     def __init__(self)-> None:
         self.codigo: int = 0
         self.fila: list = []
