@@ -1,6 +1,8 @@
 from FilaBase import FilaBase
 from constantes import CODIGO_PRIORITARIO
 
+from typing import Dict
+
 
 class FilaPrioritaria(FilaBase):
     def __init__(self)-> None:
@@ -36,7 +38,7 @@ class FilaPrioritaria(FilaBase):
                 f'{agencia} - {dia}' : len(self.clientes_atendidos)
             }
         else: 
-            estatistica = {}
+            estatistica : Dict[str, str] = {}
             estatistica['dia'] = str(dia)
             estatistica['agencia'] = str(agencia)
             estatistica['quantidade_clientes_atendidos'] = len(
