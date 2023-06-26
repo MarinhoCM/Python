@@ -1,0 +1,6 @@
+[run]
+
+[report]
+exclude_lines=
+    def __str__
+    def calcular_bonus
