@@ -1,5 +1,6 @@
-from constantes import (TIPO_FILA_NORMAL,
-                        TIPO_FILA_PRIORITARIA)
+from constantes import (
+    TIPO_FILA_NORMAL, TIPO_FILA_PRIORITARIA
+)
 from FilaNormal import FilaNormal
 from FilaPrioritaria import FilaPrioritaria
 
