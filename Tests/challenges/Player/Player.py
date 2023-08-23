@@ -37,3 +37,4 @@ class Player:
         return (
             f"{self.name} weighs {self.weight}kg"
         )
+
