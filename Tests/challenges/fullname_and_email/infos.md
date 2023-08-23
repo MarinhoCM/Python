@@ -18,6 +18,3 @@ emp_1.fullname ➞ "John Smith"
 emp_2.email ➞ "mary.sue@company.com"
 emp_3.firstname ➞ "Antony"
 ```
-
-### Notes
-- See the Resources tab for some helpful tutorials on Python classes!
