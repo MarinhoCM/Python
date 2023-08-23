@@ -9,18 +9,16 @@
   
 #### Also, create three functions for the class that returns the following strings:
 
-`get_age()` returns "name is age age"
-
-`get_height()` returns "name is heightcm"
-
-`get_weight()` returns "name weighs weightkg"
+`get_age()` returns "name is age age"<br>
+`get_height()` returns "name is height cm"<br>
+`get_weight()` returns "name weighs weight kg"<br>
 
 ## Examples
 p1 = player("David Jones", 25, 175, 75)
 
-p1.get_age() ➞ "David Jones is age 25"
-p1.get_height() ➞ "David Jones is 175cm"
-p1.get_weight() ➞ "David Jones weighs 75kg"
+p1.get_age() ➞ "David Jones is age 25"<br>
+p1.get_height() ➞ "David Jones is 175cm"<br>
+p1.get_weight() ➞ "David Jones weighs 75kg"<br>
 
 ## Notes
 #### name will be passed in as a string and age, height, weight will be integers.
