@@ -20,5 +20,4 @@ emp_3.firstname ➞ "Antony"
 ```
 
 ### Notes
-- The attributes firstname and lastname are already made for you.
 - See the Resources tab for some helpful tutorials on Python classes!
