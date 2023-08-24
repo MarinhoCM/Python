@@ -30,6 +30,6 @@ class TestEmployee(unittest.TestCase):
         self.assertEquals(emp_4.email, "joshua.senoron@company.com")
         
 
-
 if __name__ == "__main__":
     unittest.main()
+    
