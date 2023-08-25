@@ -9,9 +9,9 @@
 
 #### Also, create three functions for the class that returns the following strings:
 
-`get_age()` returns "name is age age"
-`get_height()` returns "name is height cm"
-`get_weight()` returns "name weighs weight kg"
+- `get_age()` returns "name is age age"
+- `get_height()` returns "name is height cm"
+- `get_weight()` returns "name weighs weight kg"
 
 ## Examples
 
