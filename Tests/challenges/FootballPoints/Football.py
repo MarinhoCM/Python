@@ -17,5 +17,8 @@ class Football:
         return self.__loses
     
     def football_points(self) -> int:
-        points: int = (self.wins * 3) + (self.draw)
-        return points
+        if (self.wins < 0 or self.draw < 0 or self.loses < 0):
+            print("Enter a valid value!")
+        else:
+            points: int = (self.wins * 3) + (self.draw)
+            return points
