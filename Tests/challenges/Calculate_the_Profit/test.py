@@ -3,7 +3,7 @@ import sys
 import json
 import unittest
 
-from Profit import Profit
+from main import Profit
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(SCRIPT_DIR))

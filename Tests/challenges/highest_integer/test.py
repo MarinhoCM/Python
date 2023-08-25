@@ -1,6 +1,6 @@
 import unittest
 
-from HighestInteger import HighestInteger
+from main import HighestInteger
 
 
 class TestHigherInteger(unittest.TestCase):

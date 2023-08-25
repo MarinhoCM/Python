@@ -1,6 +1,6 @@
 import unittest
 
-from Player import Player
+from main import Player
 
 class TestChallenge(unittest.TestCase):
     def test_player_class(self):

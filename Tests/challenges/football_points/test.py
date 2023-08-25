@@ -1,6 +1,6 @@
 import unittest
 
-from Football import Football
+from main import Football
 
 class TestPoints(unittest.TestCase):
     def test_football_points(self):

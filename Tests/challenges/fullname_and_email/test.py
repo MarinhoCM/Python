@@ -1,6 +1,6 @@
 import unittest
 
-from Fullname_and_Email import Employee
+from main import Employee
 
 class TestEmployee(unittest.TestCase):
     def test_fullname_and_email(self):
