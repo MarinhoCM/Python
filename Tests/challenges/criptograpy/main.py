@@ -9,11 +9,10 @@ def simple_coder(text: str) -> str:
     mais ocorrências com ]
     - Retorne a string final após a modificação."""
     
-    texto_codificado = ""
-    for caractere in text:
-        if text.count(caractere) == 1:
-            texto_codificado += '['
+    text_code = ""
+    for char in text:
+        if text.count(char) == 1:
+            text_code += '['
         else:
-            texto_codificado += ']'
-
-    return texto_codificado
+            text_code += ']'
+    return text_code

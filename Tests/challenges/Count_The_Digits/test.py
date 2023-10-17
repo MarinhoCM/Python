@@ -1,6 +1,6 @@
 import unittest
 
-from exec import count_the_digits
+from main import count_the_digits
 
 class TestCounter(unittest.TestCase):
     def test_count_the_digits(self: object) -> None:

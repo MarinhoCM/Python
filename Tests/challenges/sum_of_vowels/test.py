@@ -1,6 +1,6 @@
 import unittest
 
-from exec import sum_of_vowels
+from main import sum_of_vowels
 
 class TestSum(unittest.TestCase):
     def test_sum_of_vowels(self) -> None:

@@ -1,6 +1,6 @@
 import unittest
 
-from exec import simple_coder
+from main import simple_coder
 
 class TestDecoder(unittest.TestCase):
     def test_simple_coder(self: object) -> None:
